@@ -1,5 +1,5 @@
 
-# Chess1990
+# Logika school test
 
 
 
