@@ -13,6 +13,8 @@ git clone https://github.com/MysteryCattics/LogikaSchoolTest.git
 - Вставте посилання на відео
 - виберіть якість
 - натисніть Download та насолоджуйтесь
+
+## Скріншот
 ![App Screenshot](https://cdn.imgchest.com/files/ee548cd1e9b1.PNG)
 ## Я створив завантажувач Chess1990
 
