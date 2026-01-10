@@ -10,7 +10,7 @@ app.title("Universal video downloader")
 
 
 
-image1 = CTkImage(light_image=Image.open("youtube-logo-hd-8.png"), size=(200, 200))
+image1 = CTkImage(light_image=Image.open("photos/youtube-logo-hd-8.png"), size=(200, 200))
 
 label = CTkLabel(app, text=None, image=image1)
 label.pack()
