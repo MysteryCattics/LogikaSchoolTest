@@ -3,14 +3,23 @@ from PIL import ImageTk, Image
 from pytubefix import YouTube
 from tkinter import messagebox
 import threading
+import os
+import sys
 
 app = CTk()
 app.geometry("500x700")
 app.title("Universal video downloader")
 
+def resource_path(filename: str) -> str:
+    if hasattr(sys, "_MEIPASS"):
+        return os.path.join(sys._MEIPASS, filename)
+    return os.path.join(os.path.dirname(__file__), filename)
 
+ico_path = resource_path("youtube-logo-hd-8.ico")
+app.iconbitmap(ico_path)
 
-image1 = CTkImage(light_image=Image.open("photos/youtube-logo-hd-8.png"), size=(200, 200))
+png_path = resource_path("youtube-logo-hd-8.png")
+image1 = CTkImage(light_image=Image.open(png_path), size=(200, 200))
 
 label = CTkLabel(app, text=None, image=image1)
 label.pack()
